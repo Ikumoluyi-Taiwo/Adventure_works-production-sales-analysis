@@ -31,13 +31,16 @@ Prepare and retrieve the required datasets for analysis.
 Establish the database environment used for the Power BI connection.
 
 ### Microsoft Power BI
-
 Used to:
 Connect directly to the AdventureWorks SQL database.
 Import and analyse the Production.TransactionHistory, Sales.CurrencyRate and Sales.SalesOrderDetail tables.
 Create calculated measures and KPIs.
 Develop interactive visuals and dashboards.
 Analyse trends and communicate findings through data visualisation.
+
+## Data Cleaning
+
+No data cleaning was necessary for this particular project. The selected AdventureWorks tables were already structured and suitable for analysis, with the required fields available in the appropriate format. Therefore, the project focused primarily on data exploration, analysis, calculation of measures and KPIs, visualisation, and dashboard development rather than performing extensive data cleaning transformations.
 
 ## Production Transaction Analysis
 The Production.TransactionHistory table was analysed to understand changes in transaction activity, quantity and actual costs over time.
@@ -83,7 +86,7 @@ The sales order analysis provides insights into changes in sales activity, sales
 
 ## Project Workflow
 The project followed an end-to-end data analytics workflow:
-AdventureWorks → SQL Server → Power BI → Data Analysis → Visualisation → Dashboard → Business Insights
+AdventureWorks 2014 → SQL Server → Power BI → Data Validation & Cleaning Assessment → Data Analysis → Visualisation → Dashboard → Business Insights
 
 1. Imported the AdventureWorks database into SQL Server Management Studio.
 2. Connected Power BI to the SQL Server database.
